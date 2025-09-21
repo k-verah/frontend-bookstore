@@ -32,7 +32,7 @@ git clone https://github.com/Uniandes-isis2603/bookstore-back.git
 cd bookstore-back
 git checkout persistencia
 mvn spring-boot:run
-
+```
 ##  Frontend (bookstore-back)
 1. Clonar este repositorio
 ```bash
@@ -40,7 +40,7 @@ git clone https://github.com/k-verah/frontend-bookstore.git
 cd frontend-bookstore
 2. Instala dependencias
 3. Ejecutar el servidor de desarrollo
-
+```
 
 ##  Funcionalidades implementadas
 
