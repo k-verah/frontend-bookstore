@@ -28,10 +28,11 @@ Se conecta al backend `bookstore-back` y permite:
 Clona y ejecuta el backend en tu máquina local:  
 
 ```bash
-git clone https://github.com/Uniandes-isis2603/bookstore-back.git
+git clone https://github.com/tucuenta/bookstore-back.git
 cd bookstore-back
-git checkout persistencia
-mvn spring-boot:run
+docker build ./ -t bookstore
+docker run -d -p 127.0.0.1:8080:8080 bookstore
+docker ps
 ```
 ##  Frontend (bookstore-back)
 1. Clonar este repositorio
