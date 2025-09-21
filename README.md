@@ -28,7 +28,7 @@ Se conecta al backend `bookstore-back` y permite:
 Clona y ejecuta el backend en tu máquina local:  
 
 ```bash
-git clone https://github.com/tucuenta/bookstore-back.git
+git clone https://github.com/k-verah/bookstore-back.git
 cd bookstore-back
 docker build ./ -t bookstore
 docker run -d -p 127.0.0.1:8080:8080 bookstore
