@@ -38,29 +38,30 @@ mvn spring-boot:run
 ```bash
 git clone https://github.com/k-verah/frontend-bookstore.git
 cd frontend-bookstore
+```
 2. Instala dependencias
 3. Ejecutar el servidor de desarrollo
-```
+
 
 ##  Funcionalidades implementadas
 
-Listar autores (/authors)
+### Listar autores (/authors)
 	•	Muestra todos los autores desde el backend.
 	•	Botón Editar - redirige a /authors/[id]/edit.
 	•	Botón Eliminar - borra el autor de la lista y backend.
 
-Crear autor (/crear)
+### Crear autor (/crear)
 	•	Formulario controlado con useState.
 	•	Campos: nombre, descripción, fecha de nacimiento, URL de imagen.
 	•	Al enviar - POST al backend y reseteo de formulario.
 
-Editar autor (/authors/[id]/edit)
+### Editar autor (/authors/[id]/edit)
 	•	Ruta dinámica que busca el autor por su id.
 	•	Precarga los datos en el formulario.
 	•	Permite modificar y guardar con un PUT.
 	•	Redirige al listado de autores.
 
-Eliminar autor
+### Eliminar autor
 	•	Se puede eliminar directamente desde la lista.
 	•	Llama a DELETE en el backend.
 	•	Actualiza la lista en tiempo real.
