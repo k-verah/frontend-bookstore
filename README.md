@@ -28,7 +28,7 @@ Se conecta al backend `bookstore-back` y permite:
 Clona y ejecuta el backend en tu máquina local:  
 
 ```bash
-(https://github.com/k-verah/bookstore-back.git)
+git clone https://github.com/Uniandes-isis2603/bookstore-back.git
 cd bookstore-back
 git checkout persistencia
 mvn spring-boot:run
