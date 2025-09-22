@@ -85,10 +85,9 @@ cd frontend-bookstore
 
 ### Arquitectura
 La arquitectura sigue una separacion por carpetas:
-	- src/app - contiene las páginas principales (/authors, /favoritos, /authors/[id]/edit, etc.).
-	- src/hooks - contiene hooks personalizados como useAuthors, donde esta la logica para consumir el backend y manejar autores.
-	- src/context - contiene el Favorites, encargado de manejar el estado global de los autores favoritos y compartirlo entre rutas.
-
+- src/app - contiene las páginas principales (/authors, /favoritos, /authors/[id]/edit, etc.).
+- src/hooks - contiene hooks personalizados como useAuthors, donde esta la logica para consumir el backend y manejar autores.
+- src/context - contiene el Favorites, encargado de manejar el estado global de los autores favoritos y compartirlo entre rutas.
 El flujo principal se basa en un CRUD de autores conectado a un backend con API REST.
 
 ### Accesibilidad
