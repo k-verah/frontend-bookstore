@@ -91,9 +91,10 @@ La arquitectura sigue una separacion por carpetas:
 El flujo principal se basa en un CRUD de autores conectado a un backend con API REST.
 
 ### Accesibilidad
-Se implemento la opción de Accesibilidad, añadiendo lo siguiente
-	Navegación por teclado: todos los botones y enlaces muestran foco visible con focus:ring de Tailwind.
-	Atributos ARIA:
-	 	- aria-pressed="true/false" en el botón de favoritos.
-	 	- aria-label en botnes de editar y eliminar.
-		- Cambios de estado accesibles: el botón de favoritos refleja su estado con aria-pressed.
+Se implemento la opción de Accesibilidad, añadiendo lo siguiente: 
+
+Navegación por teclado: todos los botones y enlaces muestran foco visible con focus:ring de Tailwind.
+**Atributos ARIA:**
+- aria-pressed="true/false" en el botón de favoritos.
+- aria-label en botnes de editar y eliminar.
+Cambios de estado accesibles: el botón de favoritos refleja su estado con aria-pressed.
