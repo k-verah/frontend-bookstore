@@ -79,3 +79,22 @@ cd frontend-bookstore
 
 	•	 Eliminación de autor: al oprimir el boton el eliminar, podemos ver como se elimino el autor de ejemplo Pablo Neruda
 <img width="1723" height="949" alt="Screenshot 2025-09-21 at 12 47 40 PM" src="https://github.com/user-attachments/assets/76e21132-d7e0-408d-977a-3701315e6834" />
+
+
+## Parcial 1 
+
+### Arquitectura
+La arquitectura sigue una separacion por carpetas:
+	•	src/app - contiene las páginas principales (/authors, /favoritos, /authors/[id]/edit, etc.).
+	•	src/hooks - contiene hooks personalizados como useAuthors, donde esta la logica para consumir el backend y manejar autores.
+	•	src/context - contiene el Favorites, encargado de manejar el estado global de los autores favoritos y compartirlo entre rutas.
+
+El flujo principal se basa en un CRUD de autores conectado a un backend con API REST.
+
+### Accesibilidad
+Se implemento la opción de Accesibilidad, añadiendo lo siguiente
+	•	Navegación por teclado: todos los botones y enlaces muestran foco visible con focus:ring de Tailwind.
+	•	Atributos ARIA:
+	•	aria-pressed="true/false" en el botón de favoritos.
+	•	aria-label en botnes de editar y eliminar.
+	•	Cambios de estado accesibles: el botón de favoritos refleja su estado con aria-pressed.
